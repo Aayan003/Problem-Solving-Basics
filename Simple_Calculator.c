@@ -28,9 +28,9 @@ int main()
     }
     printf("\n\n%.9f\n\n", i);
     printf("\nThe math functions you can use are following-\n'+' means addition,\n'-' means substraction,\n'*' means multiplication,\n'/' means division.\n");
-    printf("\nEnter your input this way- '(function)number3-\n");
     do
     {
+    	printf("\nEnter your input this way- '(function)number3-\n");
         scanf("\n%c", &ch);
         scanf("%f", &num3);
         switch(ch)
